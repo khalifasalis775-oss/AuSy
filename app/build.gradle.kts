@@ -1,3 +1,8 @@
+plugins {
+    id("com.android.application")
+    id("org.jetbrains.kotlin.android")
+}
+
 android {
     namespace = "com.example.ausy"
     compileSdk = 34
@@ -19,4 +24,3 @@ android {
         jvmTarget = "17"
     }
 }
-
